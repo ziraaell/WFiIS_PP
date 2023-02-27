@@ -69,7 +69,4 @@ int main()
     printf("%d ", *(tab2+i));
     
     return 0;
-
-
-
 }
