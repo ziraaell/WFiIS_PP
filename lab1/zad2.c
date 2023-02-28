@@ -68,5 +68,7 @@ int main()
     for(int i = 0; i < tab2_size; i++)
     printf("%d ", *(tab2+i));
     
+    printf("\n");
+    
     return 0;
 }
