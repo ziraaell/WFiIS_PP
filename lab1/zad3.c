@@ -65,9 +65,9 @@ int main()
     int min2 = tab[0], maks2 = tab[0];
 
     int sum = suma(tab, tab_size, &min, &maks, &srednia, &min_o, &maks_o);
-    int sum2 = suma_2(tab, tab_size, &min2, &maks2, &srednia, &min_o, &maks_o);
-
     printf("WSKAZNIKOWA\n\nSuma tab [%d] = %d\nWartosc minimalna = %d\nWartosc maksymalna = %d\nSrednia = %0.2f\nMinimalne odchylenie = %0.2f\nMaksymalne odchylenie = %0.2f\n\n", tab_size, sum, min, maks, srednia, min_o, maks_o);
+    
+    int sum2 = suma_2(tab, tab_size, &min2, &maks2, &srednia, &min_o, &maks_o);
     printf("INDEKSOWA\n\nSuma tab [%d] = %d\nWartosc minimalna = %d\nWartosc maksymalna = %d\nSrednia = %0.2f\nMinimalne odchylenie = %0.2f\nMaksymalne odchylenie = %0.2f\n", tab_size, sum2, min, maks, srednia, min_o, maks_o);
     return 0;
 }
